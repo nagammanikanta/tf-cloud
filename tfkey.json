@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "manikanta-396303",
+    "private_key_id": "06a02263053e256453f1d257dd817b10f075b4d2",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCt7XIq+ltWIYCx\nb+QcsJL8LzrOdeytC1QYHA+DC4pplU5SG4nM784mqdIdjs1fwnSbSnRAHlrQBA+6\nhLBciVF0xRTPbFV+nmxRN5+PbeFoNHtzkAj+N/rEhmIs1LLcLYRwgpueIT6IkT7X\nJ6MG3I2ioB7Y+8OGrb82ET7WdGApo0lN4vIbRkynL9NMzKg41y8n/YhpTjHrjMpu\nIpY8wtKDRmVthIu2vM/x5c/+TH48BImOHJHF+eJHjDUU4PLyE4Os8az5v60drsXh\nHZ7QOVUA00koxIABLzGCuS7WkpaM4w+mwrkLoWI+nBzkVgxqkVbKIzejo/FpaCrp\n6+V/WIVnAgMBAAECggEAMNuk2KHfioB60F1oLQ8FG0aBNII37BxkkSlAykUxqptA\nlxwZR7KNrJrD5X25/452hzERGvnr9MdPS8v+ZuBEO5MpV2NNWPZT4zTG49mwGj+z\n9jCd9hvvm8lMRt+xJty6eYiXAoLAOEjk6DfAOis2tlpYkAeZU3n3Xs7VYhTq9obr\nEUCJ6oDpZFzF6ZoZ3ujF69rJnBMb7toRSAXTMzGfYgQkWkjTa6LAQ0V96ufDYFnw\nyMKQYR2mR2fiVpXL6fZ1mbGfPgDLFDAecnELErl4K2L10t7QgwhLu+uyLoseicB4\nAzOJQ721pxbnXNVH4F7ptLIdENeqRloM13eD4afywQKBgQDl81Vn4ZZHn2cNOLd2\nvj8zVbbna/STp2aUc3hX7ptk+JWtNS4rTEcZfnqp/aEL6BWPLA4tTPFLA1pgJcoo\n+Zq7Oi2g20U/QwneAyi1Vl4/BqrYBxQtuqbcK3mxrZ4S7zxO70355MPSpjvln7JT\nl5h/6p/mMcA6ad459wmiIaJWtwKBgQDBoWu0n2F7oGF631M/NBV7qOIgoUknbjMO\nw7H1NDHnlNHy1vRuNCSBjdeme9lUrgXSqMLCM0FjqZA5zD1wc07ERkdw8GUcYdEP\ni6SvIb47wqjM8B7oCivoJuSEjesusmJljo1olhiHUwHuLz5zzVfeTddzHFUyJRtg\nQUcroIQW0QKBgQCGD5d7OMmkeApcavSLBd9SzmYUBZxReQcVBTzkBvgRpdudX6PL\nGm1ZL6PT90os5uGq1sRtJK6ITSwjYeS6fsr23LQ9U5jLiQn3pV/WWMQZeomf6ICb\nKHafZblNHStLXq6KVnnfdr+zz7ab6L7OfVMrQF54lgi8BXzJznyPSYybgQKBgAJ7\nVy4RfOZgv98bTa3ZtQzItV1Fs/JVb0IZMAa8jIczWR2Ls8ZV1MH0V3dCzx5OvLRe\nhWCH16a3Xanf/EmcsL3DSNchvaoHdu6EE7BK9m09qXw2965xsu5e0T8Bsqn+j1RN\n53IXumjBn5y17k79qsqmpMRM8Kqb3yX0sDzW6dqBAoGBAM1kET62qZxpQc/CX4eg\nMcS6NGYgvsS4UfFy73WpjREv9ggn3D3s/CkZb97gKZsaYL8TtgXrvDNqdA61PMY3\n8ugkE3dLZaFG03Y2Ss/0unhDcbh1PKgHJCsFYkIiEOWxAB4zQJTvW6rnXR9cCwOV\nb6b9cVT3z6ndQnP3RcVrD+wo\n-----END PRIVATE KEY-----\n",
+    "client_email": "terraform@manikanta-396303.iam.gserviceaccount.com",
+    "client_id": "111817810306985631818",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40manikanta-396303.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
