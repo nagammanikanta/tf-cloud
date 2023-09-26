@@ -67,7 +67,7 @@ output "sa_tf" {
    
  }
  output "users" {
-  value = google_sql_user.users
+  sensitive = true
 
    
  }
