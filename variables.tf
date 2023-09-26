@@ -143,5 +143,57 @@ variable "vpc-3" {
   default = "vpc-3"
   
 }
+variable "database_version" {
+  type = string
+  default = "MYSQL_8_0"
+  
+}
+variable "instance-sql-tf" {
+  type = string
+  default = "my-database-instance"
+  
+}
+variable "deletion_protection" {
+  type = bool
+  default = false
+  
+}
+variable "database-tf" {
+  type = string
+  default = "my-database"
+}
+variable "tier" {
+  type = string
+  default = "db-f1-micro"
+  
+}
+
+  
+
+variable "availability_type" {
+  type = string
+  default = "REGIONAL"
+  
+}
+
+variable "users" {
+  type = string
+  default = "me"
+  
+}
+
+variable "password" {
+  type = string
+  default = "changeme"
+  
+}
+
+variable "host" {
+  type = string
+  default = "me.com"
+  
+}
+
+
   
 
