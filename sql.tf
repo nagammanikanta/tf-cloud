@@ -14,12 +14,14 @@ resource "google_sql_database_instance" "instance-sql-tf" {
     tier = var.tier
     availability_type = var.availability_type
     backup_configuration {
-      enabled            = true
-      binary_log_enabled = true
+      
+      binary_log_enabled = var.binary_log_enabled 
+    }
   }
 
   deletion_protection  = var.deletion_protection
 }
+
 resource "google_sql_user" "users" {
   name     = var.users
   instance = google_sql_database_instance.instance-sql-tf.name
