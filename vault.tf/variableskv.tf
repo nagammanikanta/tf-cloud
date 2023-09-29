@@ -23,7 +23,7 @@ variable "static_account" {
 }
 variable "secret_type" {
   type = string
-  default = "access_token"
+  default = "access-token"
   
 }
 
