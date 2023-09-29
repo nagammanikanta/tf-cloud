@@ -3,7 +3,7 @@
 provider "vault" {
 
   address = "projects/880089628389/secrets/secret-11"
-
+   token   = "projects/880089628389/secrets/secret-11"
   skip_tls_verify = true
 }
 
