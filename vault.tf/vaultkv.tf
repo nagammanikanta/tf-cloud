@@ -1,18 +1,11 @@
-terraform {
-  required_providers {
-    vault = {
-      source = "hashicorp/vault"
-      version = "3.20.1"
-    }
-  }
-}
+
 
 provider "vault" {
 
   address = "projects/880089628389/secrets/secret-11"
 
   skip_tls_verify = true
-  
+}
 
 resource "vault_gcp_secret_backend" "gcp" {
       path        = var.gcp
@@ -20,7 +13,7 @@ resource "vault_gcp_secret_backend" "gcp" {
 }
 
 resource "google_service_account" "this" {
-  account_id = var.this
+  account_id = var.this.account_id
 }
 
 
@@ -40,5 +33,4 @@ resource "vault_gcp_secret_static_account" "static_account" {
       var.roles
     ]
   }
-}
 }
