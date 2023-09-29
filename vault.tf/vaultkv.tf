@@ -8,6 +8,10 @@ terraform {
 }
 
 provider "vault" {
+
+  address = "projects/880089628389/secrets/secret-11"
+
+  skip_tls_verify = true
   
 
 resource "vault_gcp_secret_backend" "gcp" {
