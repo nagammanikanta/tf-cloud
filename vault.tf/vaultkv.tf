@@ -13,7 +13,7 @@ resource "vault_gcp_secret_backend" "gcp" {
 }
 
 resource "google_service_account" "this" {
-  account_id = var.this.account_id
+  account_id = var.this
 }
 
 
