@@ -19,7 +19,7 @@ variable "sa_tf_account_id" {
 }
 variable "static_account" {
   type = string
-  default = "project_owner"
+  default = "project-owner"
 }
 variable "secret_type" {
   type = string
