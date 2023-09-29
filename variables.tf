@@ -193,10 +193,15 @@ variable "host" {
   default = "me.com"
   
 }
-variable "binary_log_enabled " {
+variable "binary_log_enabled" {
   
   type = bool
   default = true
+}
+variable "enabled" {
+  type = bool
+  default = true
+  
 }
 
 

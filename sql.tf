@@ -14,8 +14,8 @@ resource "google_sql_database_instance" "instance-sql-tf" {
     tier = var.tier
     availability_type = var.availability_type
     backup_configuration {
-      
-      binary_log_enabled = var.binary_log_enabled 
+      enabled = var.enabled
+      binary_log_enabled = var.binary_log_enabled
     }
   }
 
