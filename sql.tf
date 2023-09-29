@@ -13,6 +13,9 @@ resource "google_sql_database_instance" "instance-sql-tf" {
   settings {
     tier = var.tier
     availability_type = var.availability_type
+    backup_configuration {
+      enabled            = true
+      binary_log_enabled = true
   }
 
   deletion_protection  = var.deletion_protection
