@@ -12,10 +12,10 @@ variable "region" {
  default  = "us-central1"
 }
 
-variable "sa_tf_account_id" {
+variable "this" {
   type = string
   
-  default ="tfmanikanta"
+  default ="my-awesome-account"
   
 }
 variable "static_account" {
@@ -30,7 +30,7 @@ variable "secret_type" {
 
 variable "gcp" {
   type = string
-  default = "g"
+  default = "projects/880089628389/secrets/secret-11"
   
 }
 variable "roles" {
