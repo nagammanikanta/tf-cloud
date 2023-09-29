@@ -1,4 +1,14 @@
+terraform {
+  required_providers {
+    vault = {
+      source = "hashicorp/vault"
+      version = "3.20.1"
+    }
+  }
+}
 
+provider "vault" {
+  
 
 resource "vault_gcp_secret_backend" "gcp" {
       path        = var.gcp
@@ -26,4 +36,5 @@ resource "vault_gcp_secret_static_account" "static_account" {
       var.roles
     ]
   }
+}
 }
