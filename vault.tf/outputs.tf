@@ -2,7 +2,7 @@
 
 
 output "sa_tf" {
-    value = google_service_account.sa_tf.email
+    value = google_service_account.sa_tf_account_id.email
   
 }
 output "gcp" {

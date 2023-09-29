@@ -13,6 +13,7 @@ variable "region" {
 }
 
 variable "sa_tf_account_id" {
+  type = string
   
   default ="tfmanikanta"
   
