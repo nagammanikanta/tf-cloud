@@ -30,7 +30,7 @@ variable "secret_type" {
 
 variable "gcp" {
   type = string
-  default = "gcp"
+  default = "g"
   
 }
 variable "roles" {

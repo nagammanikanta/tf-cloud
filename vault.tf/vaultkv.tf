@@ -34,7 +34,7 @@ resource "vault_gcp_secret_static_account" "static_account" {
 
   # Optional
   binding {
-    resource = "//cloudresourcemanager.googleapis.com/projects/${google_service_account.sa_tf.project}"
+    resource = "//cloudresourcemanager.googleapis.com/projects/${google_service_account.sa_tf_account_id.project}"
 
     roles = [
       var.roles
