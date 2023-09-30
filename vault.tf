@@ -23,8 +23,5 @@ module "vault" {
   kms_keyring    = var.key-ring-terra
   kms_crypto_key = var.crypto-key-terra
 
-  storage_bucket_force_destroy = true
-  load_balancing_scheme        = var.load_balancing_scheme
-  allow_public_egress          = var.allow_public_egress
 }
 
