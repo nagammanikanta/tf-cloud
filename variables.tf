@@ -226,11 +226,7 @@ variable "allow_public_egress" {
   default     = true
 }
 
-variable "prevent_destroy" {
-  type = bool
-  default = false
-  
-}
+
 
 
   
