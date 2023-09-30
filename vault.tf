@@ -9,7 +9,7 @@ resource "google_kms_crypto_key" "crypto-key-terra" {
   
 
   lifecycle {
-    prevent_destroy = var.prevent_destroy
+    prevent_destroy =  false
   }
 }
 
