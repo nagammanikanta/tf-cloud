@@ -215,16 +215,7 @@ variable "crypto-key-terra" {
  
 }
 
-variable "load_balancing_scheme" {
-  type        = string
-  default     = "EXTERNAL"
-  
-}
 
-variable "allow_public_egress" {
-  type        = bool
-  default     = true
-}
 
 
 
