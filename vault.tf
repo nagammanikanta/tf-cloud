@@ -1,7 +1,3 @@
-provider "google" {
-  project = var.project_id
-  region  = var.region
-}
 
 module "vault" {
   // source = "terraform-google-modules/vault/google"
