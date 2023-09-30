@@ -13,15 +13,3 @@ resource "google_kms_crypto_key" "crypto-key-terra" {
   }
 }
 
-module "vault" {
-  // source = "terraform-google-modules/vault/google"
-
-  source     = "../../"
-  project_id = var.project_id
-  region     = var.region
-
-  kms_keyring    = var.key-ring-terra
-  kms_crypto_key = var.crypto-key-terra
-
-}
-
