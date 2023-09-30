@@ -1,6 +1,6 @@
 resource "google_kms_key_ring" "key-ring-terra" {
   name     = var.key-ring-terra
-  location = var.location
+  location = "global"
 }
 
 resource "google_kms_crypto_key" "crypto-key-terra" {
