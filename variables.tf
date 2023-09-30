@@ -203,28 +203,33 @@ variable "enabled" {
   default = true
   
 }
-variable "kms_keyring" {
+variable "key-ring-terra" {
   type        = string
-  default     = "vault"
-  description = "Name of the GCP KMS keyring"
+  default     = "key-ring-terra"
+ 
 }
 
-variable "kms_crypto_key" {
+variable "crypto-key-terra" {
   type        = string
-  default     = "vault-init"
-  description = "Name of the GCP KMS crypto key"
+  default     = "crypto-key-terra"
+ 
 }
 
 variable "load_balancing_scheme" {
   type        = string
   default     = "EXTERNAL"
-  description = "e.g. [INTERNAL|EXTERNAL]. Scheme of the load balancer"
+  
 }
 
 variable "allow_public_egress" {
   type        = bool
   default     = true
-  description = "Whether to create a NAT for external egress. If false, you must also specify an http_proxy to download required executables including Vault, Fluentd and Stackdriver"
+}
+
+variable "prevent_destroy" {
+  type = bool
+  default = false
+  
 }
 
 
