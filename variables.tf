@@ -215,11 +215,7 @@ variable "crypto-key-terra" {
  
 }
 
-variable "org-name " {
-  type = string
-  default = "no-organization"
-  
-}
+
 
 variable "name" {
   type = string

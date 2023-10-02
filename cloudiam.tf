@@ -1,7 +1,7 @@
 resource "google_project" "project" {
   
   name            = var.name
-  org_name          = var.org-name 
+ 
   billing_account = var.billing_account
 }
 
