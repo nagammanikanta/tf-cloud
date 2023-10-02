@@ -13,7 +13,7 @@ resource "google_access_context_manager_access_level" "test-access" {
       device_policy {
         require_screen_lock = true
         os_constraints {
-          os_type = var.os_type
+          os_type = "DESKTOP_CHROME_OS"
         }
       }
       regions = [
