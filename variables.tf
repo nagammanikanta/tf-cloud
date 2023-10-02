@@ -215,7 +215,7 @@ variable "crypto-key-terra" {
  
 }
 
-variable "org_id " {
+variable "org-id " {
   type = string
   default = "No organization"
   
@@ -227,7 +227,7 @@ variable "name" {
   
 }
 
-variable "os_type" {
+variable "os-type" {
   type = string
   default = "DESKTOP_CHROME_OS"
   
