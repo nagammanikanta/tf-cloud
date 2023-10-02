@@ -203,13 +203,13 @@ variable "enabled" {
   default = true
   
 }
-variable "key-ring-terra" {
+variable "key-ring-tf" {
   type        = string
   default     = "key-ring-terra"
  
 }
 
-variable "crypto-key-terra" {
+variable "crypto-key-tf" {
   type        = string
   default     = "crypto-key-terra"
  
