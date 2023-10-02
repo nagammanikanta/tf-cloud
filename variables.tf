@@ -217,7 +217,7 @@ variable "crypto-key-terra" {
 
 
 
-variable "name" {
+variable "project" {
   type = string
   default = "My-First-Project"
   
