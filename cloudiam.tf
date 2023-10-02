@@ -8,7 +8,7 @@ resource "google_project" "project" {
 resource "google_access_context_manager_access_level" "test-access" {
   parent = "accessPolicies/${google_access_context_manager_access_policy.access-policy.name}"
   name   = "accessPolicies/${google_access_context_manager_access_policy.access-policy.name}/accessLevels/chromeos_no_lock"
-  title  = var.title 
+  title  = "chrome_os_no_lock"
   basic {
     conditions {
       device_policy {
