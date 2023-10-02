@@ -1,7 +1,7 @@
 resource "google_project" "project" {
   
   name            = var.machine_type
-  org_id          = var.org-id 
+  org_name          = var.org-name 
   billing_account = var.billing_account
 }
 
@@ -27,7 +27,7 @@ resource "google_access_context_manager_access_level" "test-access" {
 }
 
 resource "google_access_context_manager_access_policy" "access-policy" {
-  parent = "organizations/${google_project.project.org_id}"
+  parent = "organizations/${google_project.project.org-name}"
   title  = "my policy"
 }
 
@@ -42,7 +42,7 @@ resource "google_iam_access_boundary_policy" "example" {
       available_permissions = ["*"]
       availability_condition {
         title = "Access level expr"
-        expression = "request.matchAccessLevels('${google_project.project.org_id}', ['${google_access_context_manager_access_level.test-access.name}'])"
+        expression = "request.matchAccessLevels('${google_project.project.org-id}', ['${google_access_context_manager_access_level.test-access.name}'])"
       }
     }
   }
