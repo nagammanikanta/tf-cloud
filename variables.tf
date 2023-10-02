@@ -229,7 +229,7 @@ variable "name" {
 
 variable "os-type" {
   type = string
-  default = "DESKTOP_CHROME_OS"
+  default = "DESKTOP-CHROME-OS"
   
 }
 
