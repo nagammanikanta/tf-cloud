@@ -223,7 +223,7 @@ variable "project" {
   
 }
 
-variable "os-type" {
+variable "os_type" {
   type = string
   default = "DESKTOP-CHROME-OS"
   
