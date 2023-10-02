@@ -215,6 +215,34 @@ variable "crypto-key-terra" {
  
 }
 
+variable "org_id " {
+  type = string
+  default = "No organization"
+  
+}
+
+variable "name" {
+  type = string
+  default = "My First Project"
+  
+}
+
+variable "os_type" {
+  type = string
+  default = "DESKTOP_CHROME_OS"
+  
+}
+variable "title " {
+  type = string
+  default = "chrome_os_no_lock"
+  
+}
+variable "billing_account" {
+  type = string
+  default = "017B67-EFE040-7F13EF"
+  
+}
+
 
 
 
