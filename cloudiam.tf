@@ -46,3 +46,17 @@ resource "google_iam_access_boundary_policy" "example" {
     }
   }
 }
+
+data "google_iam_policy" "admin" {
+  binding {
+    role = "roles/billing.owner"
+    members = [
+      "user:terraform@data-rainfall-396303.iam.gserviceaccount.com",
+    ]
+  }
+}
+
+resource "google_billing_account_iam_policy" "editor" {
+  billing_account_id = var.billing_account
+  policy_data        = data.google_iam_policy.admin.policy_data
+}
