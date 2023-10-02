@@ -217,13 +217,13 @@ variable "crypto-key-terra" {
 
 variable "org-name " {
   type = string
-  default = "No organization"
+  default = "no-organization"
   
 }
 
 variable "name" {
   type = string
-  default = "My First Project"
+  default = "My-First-Project"
   
 }
 
