@@ -1,7 +1,7 @@
 resource "google_project" "project" {
   
   name            = var.machine_type
-  org_id          = var.org_id 
+  org_id          = var.org-id 
   billing_account = var.billing_account
 }
 
@@ -14,7 +14,7 @@ resource "google_access_context_manager_access_level" "test-access" {
       device_policy {
         require_screen_lock = true
         os_constraints {
-          os_type = var.os_type
+          os_type = var.os-type
         }
       }
       regions = [
