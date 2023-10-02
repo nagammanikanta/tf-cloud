@@ -1,7 +1,7 @@
 resource "google_project" "project" {
   name            = var.project
   billing_account = var.billing_account
-  
+  project_id = var.project_id
 }
 
 resource "google_access_context_manager_access_level" "test-access" {
