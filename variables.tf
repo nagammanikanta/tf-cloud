@@ -225,14 +225,13 @@ variable "project" {
 
 variable "os_type" {
   type = string
-  default = "DESKTOP-CHROME-OS"
+  default = [DESKTOP-CHROME-OS]
   
 }
 
 variable "billing_account" {
   type = string
   default = "017B67-EFE040-7F13EF"
-  
 }
 
 
