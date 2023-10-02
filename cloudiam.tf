@@ -26,7 +26,7 @@ resource "google_access_context_manager_access_level" "test-access" {
 }
 
 resource "google_access_context_manager_access_policy" "access-policy" {
-  parent = "organizations/${google_project.project}"
+  parent = "organizations/${google_project.project.name}"
   title  = "my policy"
 }
 
@@ -41,7 +41,7 @@ resource "google_iam_access_boundary_policy" "example" {
       available_permissions = ["*"]
       availability_condition {
         title = "Access level expr"
-        expression = "request.matchAccessLevels('${google_project.project}', ['${google_access_context_manager_access_level.test-access.name}'])"
+        expression = "request.matchAccessLevels('${google_project.project.name}', ['${google_access_context_manager_access_level.test-access.name}'])"
       }
     }
   }
