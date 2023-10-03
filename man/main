@@ -1,6 +1,5 @@
-FROM python:3.9 
-
+FROM python:3.12
 ADD main.py .
 RUN pip install
-EXPOSE
+EXPOSE 8080
 CMD [“python”, “./main.py”] 
