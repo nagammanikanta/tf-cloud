@@ -193,27 +193,6 @@ variable "host" {
   default = "me.com"
   
 }
-variable "binary_log_enabled" {
-  
-  type = bool
-  default = true
-}
-variable "enabled" {
-  type = bool
-  default = true
-  
-}
-variable "key-ring-tf" {
-  type        = string
-  default     = "key-ring-terra"
- 
-}
-
-variable "crypto-key-tf" {
-  type        = string
-  default     = "crypto-key-terra"
- 
-}
 
 
 
