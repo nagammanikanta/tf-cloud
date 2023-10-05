@@ -169,12 +169,12 @@ variable "tier" {
 }
 variable "binary_log_enabled" {
   type = bool
-  default = false
+  default = true
   
 }
 variable "enabled" {
   type = bool
-  default = false
+  default = true
   
 }
   
