@@ -49,7 +49,7 @@ resource "google_iam_access_boundary_policy" "example" {
 
 data "google_iam_policy" "admin" {
   binding {
-    role = "roles/billing.owner"
+    role = "roles/billing.viewer"
     members = [
       "user:terraform@data-rainfall-396303.iam.gserviceaccount.com",
     ]
