@@ -167,7 +167,16 @@ variable "tier" {
   default = "db-f1-micro"
   
 }
-
+variable " binary_log_enabled" {
+  type = bool
+  default = true
+  
+}
+variable "enabled" {
+  type = bool
+  default = true
+  
+}
   
 
 variable "availability_type" {

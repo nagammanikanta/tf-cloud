@@ -14,7 +14,7 @@ resource "google_sql_database_instance" "instance-sql-tf" {
     tier = var.tier
     availability_type = var.availability_type
     backup_configuration {
-      enabled = var.enabled
+      enabled = var.terraform
       binary_log_enabled = var.binary_log_enabled
     }
   }
