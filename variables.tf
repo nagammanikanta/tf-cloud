@@ -155,7 +155,7 @@ variable "instance-sql-tf" {
 }
 variable "deletion_protection" {
   type = bool
-  default = true
+  default = false
   
 }
 variable "database-tf" {
