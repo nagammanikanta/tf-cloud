@@ -19,7 +19,7 @@ resource "google_sql_database_instance" "instance-sql-tf" {
     }
   }
 
-   deletion_protection  = false
+   deletion_protection  = true
 }
 
 resource "google_sql_user" "users" {
