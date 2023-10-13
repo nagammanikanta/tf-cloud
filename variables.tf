@@ -153,11 +153,7 @@ variable "instance-sql-tf" {
   default = "my-database-instance"
   
 }
-variable "deletion_protection" {
-  type = bool
-  default = false
-  
-}
+
 variable "database-tf" {
   type = string
   default = "my-database"
