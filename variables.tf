@@ -211,13 +211,36 @@ variable "project" {
 
 variable "billing_account" {
   type = string
-  default = "017B67-EFE040-7F13EF"
+  default = "0169BB-FAFDA9-714256"
 }
 
+variable "forwarding-tf" {
+  type = string
+  default = "website-forwarding-rule"
+  
+}
 
+variable "backend-tf" {
+  type = string
+  default = "website-backend"
+  
+}
+variable "hc-tf" {
+  type = string
+  default = "check-website-backend"
+  
+}
 
+variable "load_balancing_scheme" {
+  type = string
+  default = "EXTERNAL"
+}
 
-
+variable "port_range" {
+  type = number
+  default = 80
+  
+}
 
   
 

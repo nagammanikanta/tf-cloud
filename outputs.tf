@@ -82,8 +82,14 @@ output "sa_tf" {
 
    
  }
+ output "forwarding-tf" {
+   value = google_compute_forwarding_rule.forwarding-tf
+ } 
  
- 
+ output "backend-tf" {
+   value = google_compute_region_backend_service.backend-tf
+   
+ }
 
 
    
